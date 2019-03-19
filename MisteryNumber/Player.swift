@@ -34,7 +34,7 @@ class Player { // Je suis la Class Player
             return false
         }
     }
-    func chooseNumber() -> Int{
+    private func chooseNumber() -> Int{
 
         if let intent = readLine() {
             if let number = Int(intent){
